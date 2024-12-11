@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alert Button Example</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <button id="myButton">Click Me!</button>
+
+    <script>
+        // Get the button element
+        const button = document.getElementById('myButton');
+
+        // Add click event listener
+        button.addEventListener('click', function() {
+            alert('Button was clicked!');
+        });
+    </script>
+
+</body>
+</html>
